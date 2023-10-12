@@ -6,5 +6,11 @@ print ("Hello, Adam R")
 
 #3
 Celsius = 38.4
-Fahrenheit = (Celsius * 9/5) + 32
-print(Celsius,"c = ")
+Fahrenheit = round((Celsius * 9/5) + 32, 2)
+print(Celsius,"°C =",Fahrenheit,"°F")
+
+#4
+NoRunsScor = 48426
+CompInni = 1014 - 162
+Res = NoRunsScor / CompInni
+print(Res)
