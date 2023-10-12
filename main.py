@@ -16,3 +16,9 @@ Result = round(NoRunsScor / CompInni,2)
 print(Result)
 
 #5
+Nums = [113,175,12]
+for i in range (3):
+        Div = (Nums[i]//24)
+        Mod = (Nums[i]%24)
+        print(Nums[i],"students will create",Div,"full groups with",Mod,"students left over.")
+
