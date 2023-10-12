@@ -12,5 +12,7 @@ print(Celsius,"°C =",Fahrenheit,"°F")
 #4
 NoRunsScor = 48426
 CompInni = 1014 - 162
-Res = NoRunsScor / CompInni
-print(Res)
+Result = round(NoRunsScor / CompInni,2)
+print(Result)
+
+#5
